@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:elevation="5dp"
+    android:background="@color/rancon_color"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+  <!--<ImageView
+    android:id="@+id/profile_image"
+    android:layout_width="130dp"
+    android:layout_height="30dp"
+    android:src="@drawable/rankon_transparent_logo"/>-->
+
+   <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="8dp"
+        android:id="@+id/UserNameShow12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+   <TextView
+        android:id="@+id/UserIdShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="4dp"/>
+
+</LinearLayout>

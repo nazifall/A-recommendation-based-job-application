@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="IT"
+            android:id="@+id/it"
+          />
+        <item
+            android:title="Garments"
+            android:id="@+id/garments"
+           />
+
+        <item
+            android:title="HR"
+            android:id="@+id/hr"
+           />
+        <item
+            android:title="NGO"
+            android:id="@+id/ngo"
+            />
+        <item
+            android:title="Tourism"
+            android:id="@+id/tourism"
+           />
+        <item
+            android:title="Bank"
+            android:id="@+id/bank"
+           />
+
+        <!--<item
+            android:title="Change Password"
+            android:id="@+id/ChangePasswordId"
+            android:icon="@drawable/change_password"/>-->
+
+    </group>
+    <!--<item android:title="Daily Attendence">
+        <menu>
+            <item
+                android:title="WinElectrician/ Construction/ Repair"
+                android:id="@+id/attendenceInId"
+                />
+            <item
+                android:title="Govt"
+                android:id="@+id/attendenceOutId"
+                android:icon="@drawable/logout"/>
+        </menu>
+    </item>-->
+
+</menu>
